@@ -27,13 +27,13 @@ public class BeeSpecific {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		log = LogManager.getLogger(Mods.BeeSpecific);
-		registerBeeSpecificPrecisionType("Species - both alleles same", Type.ANY, Alleles.BOTH);
-		registerBeeSpecificPrecisionType("Type & Species - both alleles same", Type.MATCH, Alleles.BOTH);
-		registerBeeSpecificPrecisionType("Species - only active allele", Type.ANY, Alleles.ACTIVE);
-		registerBeeSpecificPrecisionType("Type & Species - only active allele", Type.MATCH, Alleles.ACTIVE);
+		registerSpeciesSpecificPrecisionType("Species - both alleles same", Type.ANY, Alleles.BOTH);
+		registerSpeciesSpecificPrecisionType("Type & Species - both alleles same", Type.MATCH, Alleles.BOTH);
+		registerSpeciesSpecificPrecisionType("Species - only active allele", Type.ANY, Alleles.ACTIVE);
+		registerSpeciesSpecificPrecisionType("Type & Species - only active allele", Type.MATCH, Alleles.ACTIVE);
 	}
 
-	public void registerBeeSpecificPrecisionType(String name, Type type, Alleles allele) {
+	public void registerSpeciesSpecificPrecisionType(String name, Type type, Alleles allele) {
 		ItemPrecision.registerPrecisionType(String.format("SPECIES_%s_%s", type, allele), new SpeciesSpecificPrecisionType(name, type, allele));
 	}
 }
