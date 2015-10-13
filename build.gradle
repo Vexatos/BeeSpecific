@@ -49,7 +49,10 @@ configurations {
 }
 
 dependencies {
-	compile("net.sengir.forestry:forestry_1.7.10:${config.forestry.version}:dev") {
+	compile("net.sengir.forestry:forestry_1.7.10:${config.forestry.version}:api") {
+		transitive = false
+	}
+	runtime("net.sengir.forestry:forestry_1.7.10:${config.forestry.version}:dev") {
 		transitive = false
 	}
 }
