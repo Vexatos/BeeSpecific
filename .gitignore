@@ -1,0 +1,25 @@
+/*
+
+# folders
+!/gradle
+!/src
+
+# files
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/changelog.md
+!/build.gradle
+!/build.properties
+!/gradlew
+!/gradlew.bat
+
+# unwanted os-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~

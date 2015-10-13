@@ -1,0 +1,17 @@
+[
+{
+  "modid": "BeeSpecific",
+  "name": "Bee Specific",
+  "description": "An addon for Hardcore Questing Mode.",
+  "version": "${version}",
+  "credits": "",
+  "logoFile": "",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "Vexatos" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": []
+}
+]
