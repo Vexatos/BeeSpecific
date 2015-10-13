@@ -5,8 +5,8 @@ package vexatos.beespecific.precision;
  */
 public class PrecisionModes {
 
-	public enum BeeType {
-		PRINCESS, ANY
+	public enum Type {
+		MATCH, ANY
 	}
 
 	public enum Alleles {
