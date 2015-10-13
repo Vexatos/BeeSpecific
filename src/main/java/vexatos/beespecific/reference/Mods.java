@@ -10,7 +10,7 @@ public class Mods {
 	//The mod itself
 	public static final String
 		BeeSpecific = "BeeSpecific",
-		BeeSpecific_NAME = "Factum Opus";
+		BeeSpecific_NAME = "Bee Specific";
 
 	public static final String
 		Forestry = "Forestry",
