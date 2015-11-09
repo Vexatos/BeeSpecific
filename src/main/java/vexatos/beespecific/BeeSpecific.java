@@ -16,7 +16,7 @@ import vexatos.beespecific.reference.Mods;
  * @author Vexatos
  */
 @Mod(modid = Mods.BeeSpecific, name = Mods.BeeSpecific_NAME, version = "@VERSION@",
-	dependencies = "required-after:" + Mods.HQM + "@[4.3.0.1,);required-after:" + Mods.Forestry + "@[4.0.9,)")
+	dependencies = "required-after:" + Mods.HQM + "@[4.4.0.1,);required-after:" + Mods.Forestry + "@[4.0.9,)")
 public class BeeSpecific {
 
 	@Instance(Mods.BeeSpecific)
@@ -27,10 +27,10 @@ public class BeeSpecific {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		log = LogManager.getLogger(Mods.BeeSpecific);
-		registerSpeciesSpecificPrecisionType("Species - both alleles same", Type.ANY, Alleles.BOTH);
-		registerSpeciesSpecificPrecisionType("Type & Species - both alleles same", Type.MATCH, Alleles.BOTH);
-		registerSpeciesSpecificPrecisionType("Species - only active allele", Type.ANY, Alleles.ACTIVE);
-		registerSpeciesSpecificPrecisionType("Type & Species - only active allele", Type.MATCH, Alleles.ACTIVE);
+		registerSpeciesSpecificPrecisionType("speciesBoth", Type.ANY, Alleles.BOTH);
+		registerSpeciesSpecificPrecisionType("typeSpeciesBoth", Type.MATCH, Alleles.BOTH);
+		registerSpeciesSpecificPrecisionType("speciesActive", Type.ANY, Alleles.ACTIVE);
+		registerSpeciesSpecificPrecisionType("typeSpeciesActive", Type.MATCH, Alleles.ACTIVE);
 	}
 
 	public void registerSpeciesSpecificPrecisionType(String name, Type type, Alleles allele) {

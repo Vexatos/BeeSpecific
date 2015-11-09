@@ -1,0 +1,6 @@
+# Bee Specific - lang file
+
+hqm.precision.speciesBoth=Species - both alleles same
+hqm.precision.typeSpeciesBoth=Type & Species - both alleles same
+hqm.precision.speciesActive=Species - only active allele
+hqm.precision.typeSpeciesActive=Type & Species - only active allele

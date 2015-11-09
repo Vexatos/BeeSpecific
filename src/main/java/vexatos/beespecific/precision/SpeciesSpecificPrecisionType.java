@@ -14,8 +14,8 @@ public class SpeciesSpecificPrecisionType extends ItemPrecision {
 	protected final PrecisionModes.Type type;
 	protected final PrecisionModes.Alleles allele;
 
-	public SpeciesSpecificPrecisionType(String name, PrecisionModes.Type type, PrecisionModes.Alleles allele) {
-		super(name);
+	public SpeciesSpecificPrecisionType(String tag, PrecisionModes.Type type, PrecisionModes.Alleles allele) {
+		super(tag);
 		this.type = type;
 		this.allele = allele;
 	}
