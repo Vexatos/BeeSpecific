@@ -16,7 +16,7 @@ import vexatos.beespecific.reference.Mods;
  * @author Vexatos
  */
 @Mod(modid = Mods.BeeSpecific, name = Mods.BeeSpecific_NAME, version = "@VERSION@",
-	dependencies = "required-after:" + Mods.HQM + "@[4.4.0.1,);required-after:" + Mods.Forestry + "@[4.0.9,)")
+	dependencies = "required-after:" + Mods.HQM + "@[4.4.4,);required-after:" + Mods.Forestry + "@[4.0.9,)")
 public class BeeSpecific {
 
 	@Instance(Mods.BeeSpecific)
