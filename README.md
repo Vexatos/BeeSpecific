@@ -3,9 +3,9 @@ Bee Specific
 
 A Hardcore Questing Mode addon allowing detecting Forestry Bees/Trees by species.
 
-###Downloads
+### Downloads
 
-Downloads can be found [here](http://files.vex.tty.sh/BeeSpecific/).
+Downloads can be found [here](http://files.vexatos.com/BeeSpecific/).
 
-##License
+## License
 The license can be found [here](LICENSE.md).
